@@ -11,20 +11,17 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.proyecto.amphibiansapp.AmphibiansApplication
 import com.proyecto.amphibiansapp.data.AmphibiansRepository
-import com.proyecto.amphibiansapp.network.Amphibians
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
+import com.proyecto.amphibiansapp.network.Amphibian
 import kotlinx.coroutines.launch
 import java.io.IOException
 
 sealed interface AmphibiansUiState {
-    data class Success(val amphibians: List<Amphibians>) : AmphibiansUiState
+    data class Success(val amphibians: List<Amphibian>) : AmphibiansUiState
     object Error : AmphibiansUiState
     object Loading : AmphibiansUiState
 }
 
 class AmphibiansViewModel(private val amphibiansRepository: AmphibiansRepository): ViewModel() {
-    //val amphibiansUiState = mutableStateOf("")
     var uiState: AmphibiansUiState by mutableStateOf(AmphibiansUiState.Loading)
         private set
 

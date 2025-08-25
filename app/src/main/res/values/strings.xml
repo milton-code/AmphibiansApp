@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AmphibiansApp</string>
+    <string name="loading_failed">Failed to load amphibians list</string>
+    <string name="retry">Retry</string>
 </resources>
