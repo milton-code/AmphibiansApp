@@ -18,6 +18,6 @@ Android app that displays a list of amphibians retrieved from a RESTful web serv
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/milton-code/AmphibiansApp/blob/8f96518e22b7d28c69e9418bd12597b4311f9da2/amphibianlist_success.jpeg)
+![App Screenshot](https://github.com/milton-code/AmphibiansApp/blob/8f96518e22b7d28c69e9418bd12597b4311f9da2/amphibianlist_error.jpeg)
 
