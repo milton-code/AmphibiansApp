@@ -13,6 +13,7 @@ Android app that displays a list of amphibians retrieved from a RESTful web serv
 ## Tech Stack
 
 **Client:** Kotlin, Jetpack Compose, Retrofit, Coil
+
 **Server:** REST API
 
 
