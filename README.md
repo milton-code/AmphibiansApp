@@ -16,6 +16,8 @@ Android app that displays a list of amphibians retrieved from a RESTful web serv
 
 **Server:** REST API
 
+**Pattern Design:** Model - View - ViewModel
+
 
 
 ## Screenshots
